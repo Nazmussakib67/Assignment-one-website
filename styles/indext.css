@@ -1,0 +1,20 @@
+nav {
+    text-align:center;
+    text-decoration: solid;
+    color: white;
+    font-family: 'Merriweather', serif;
+    background-image: url("../resources/Banner\ Image.png");
+    width: 1300px;
+    padding: 50px ;
+    margin: auto;
+    background-position: center;
+
+    background-size: cover;
+    
+}
+nav h6{
+    font-size: 40px;
+}
+nav h2{
+    font-size: 80px;S
+}
