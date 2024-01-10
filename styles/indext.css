@@ -1,11 +1,10 @@
 nav {
     text-align:center;
-    text-decoration: solid;
     color: white;
     font-family: 'Merriweather', serif;
     background-image: url("../resources/Banner\ Image.png");
-    width: 1300px;
-    padding: 50px ;
+    max-width: 1320px;
+    padding: 60px;
     margin: auto;
     background-position: center;
 
@@ -16,5 +15,36 @@ nav h6{
     font-size: 40px;
 }
 nav h2{
-    font-size: 80px;S
+    font-size: 80px;
+}
+.offer{
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    margin-top: 70px;
+}
+.section{
+    align-items: center;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    width: 60%;
+    margin: auto;
+    background-image: url("../resources/Vectorrr.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.place-date{
+    text-align: center;
+    padding: 70px;
+    font-size:larger;
+    background-color: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    max-width: 1320px;
+    margin: 50px 80px;
+}
+.second-section{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1320px;
+    margin: auto;
 }
