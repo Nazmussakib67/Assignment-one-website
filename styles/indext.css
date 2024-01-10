@@ -71,6 +71,7 @@ nav h2{
     margin: auto 120px;
 }
 .final-image{
+    display: block;
     max-width: 1320px;
     margin: 50px 120px;
     gap: 20px;
