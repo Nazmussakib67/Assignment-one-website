@@ -1,11 +1,11 @@
 nav {
-    text-align:center;
+    text-align: center;
     color: white;
     font-family: 'Merriweather', serif;
-    background-image: url("../resources/Banner\ Image.png");
+    background-image: linear-gradient(black, transparent), url("../resources/Banner\ Image.png");
     max-width: 1320px;
-    padding: 60px;
-    margin: auto;
+    padding: 40px;
+    margin: 120px auto;
     background-position: center;
 
     background-size: cover;
@@ -38,6 +38,7 @@ nav h2{
     text-align: center;
     padding: 70px;
     font-size:larger;
+    background-color: rgba(209, 165, 165, 0);
     background-color: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
     max-width: 1320px;
     margin: 50px 80px;
@@ -47,4 +48,30 @@ nav h2{
     justify-content: space-between;
     max-width: 1320px;
     margin: auto;
+}
+.discount-section{
+    text-align: center;
+}
+.multiple-section{
+    display: flex;
+    justify-content:first baseline;
+    max-width: 1320px;
+    padding: 60px;
+    margin: auto;
+    background-image: url("../resources/Rectangle\ 1.png"), url("../resources/Rectangle\ 2.png");
+    background-size: 30%, 100%;
+    background-repeat: no-repeat;
+    background-position: right top +42px, bottom +60px center;
+}
+.image-discount50{
+    /* margin: left 10px; */
+}
+.awesome{
+    max-width: 1320px;
+    margin: auto 120px;
+}
+.final-image{
+    max-width: 1320px;
+    margin: 50px 120px;
+    gap: 20px;
 }
